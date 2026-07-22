@@ -1,0 +1,21 @@
+{
+  "name": "ten-years",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A cute side-scrolling platformer celebrating 10 years together.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "pixelate": "node scripts/pixelate.mjs"
+  },
+  "dependencies": {
+    "kaplay": "^3001.0.19"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.8"
+  }
+}
