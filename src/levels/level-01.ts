@@ -7,9 +7,9 @@ import type { LevelConfig } from "../types";
 // is documented in src/types.ts.
 const level01: LevelConfig = {
   id: "level-01",
-  place: "Where We Met",
+  place: "Norman Brothers Produce",
   year: "2016",
-  caption: "The very beginning — the place where our story started.",
+  caption: "The Fresh Approach — where it all began.",
   tokenLabel: "memories",
 
   palette: {
@@ -20,7 +20,7 @@ const level01: LevelConfig = {
     groundDark: [72, 110, 64],
   },
 
-  // bgImage: "level-01.png", // ← uncomment once a pixel-art photo exists
+  bgImage: "level-01.png",
 
   map: [
     "                                              ",
